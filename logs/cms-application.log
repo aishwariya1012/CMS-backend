@@ -1,0 +1,53 @@
+2026-05-20 09:42:19 [main] INFO  c.e.d.CrimeManagementSystemApplication - Starting CrimeManagementSystemApplication using Java 21.0.1 with PID 4908 (C:\Users\aishw\Documents\workspace-spring-tools-for-eclipse-5.1.1.RELEASE\Crime_Management_System\target\classes started by aishw in C:\Users\aishw\Documents\workspace-spring-tools-for-eclipse-5.1.1.RELEASE\Crime_Management_System)
+2026-05-20 09:42:19 [main] INFO  c.e.d.CrimeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-20 09:42:20 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-20 09:42:20 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61 ms. Found 8 JPA repository interfaces.
+2026-05-20 09:42:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-05-20 09:42:20 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-20 09:42:20 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-05-20 09:42:20 [main] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2026-05-20 09:42:20 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1542 ms
+2026-05-20 09:42:21 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-20 09:42:21 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c7d7430
+2026-05-20 09:42:21 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-20 09:42:21 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-20 09:42:21 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-05-20 09:42:21 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-05-20 09:42:21 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-20 09:42:21 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-20 09:42:21 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-05-20 09:42:22 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-20 09:42:23 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20 09:42:23 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-20 09:42:23 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 2d00f37e-cb1d-4f0e-9b89-4a41446fba2f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-20 09:42:24 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@77a35b2f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@755057c7, org.springframework.security.web.context.SecurityContextHolderFilter@4d37c996, org.springframework.security.web.header.HeaderWriterFilter@72fc6b5e, org.springframework.web.filter.CorsFilter@4d62bb8b, org.springframework.security.web.authentication.logout.LogoutFilter@268eefe7, com.example.demo.Security.JwtFilter@3b78c683, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3f8c4bcf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@175377d3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70f37190, org.springframework.security.web.session.SessionManagementFilter@4cd13fad, org.springframework.security.web.access.ExceptionTranslationFilter@5d3a147f, org.springframework.security.web.access.intercept.AuthorizationFilter@722e1bff]
+2026-05-20 09:42:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/api/v1'
+2026-05-20 09:42:24 [main] INFO  c.e.d.CrimeManagementSystemApplication - Started CrimeManagementSystemApplication in 5.477 seconds (process running for 6.109)
+2026-05-20 09:52:35 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-20 09:52:35 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-20 09:52:35 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-05-20 09:52:36 [http-nio-8080-exec-3] INFO  c.e.demo.Controller.AuthController - Login request — email=dev@gmail.com, role=CITIZEN
+2026-05-20 09:52:43 [http-nio-8080-exec-3] INFO  c.e.demo.Service.NotificationService - Email sent to dev@gmail.com
+2026-05-20 09:52:43 [http-nio-8080-exec-3] INFO  c.e.demo.Service.NotificationService - Notification saved — type=LOGIN_ALERT, actorId=3, role=CITIZEN
+2026-05-20 09:52:43 [http-nio-8080-exec-3] INFO  c.example.demo.Service.AuthService - Citizen login — userId=3
+2026-05-20 10:45:33 [http-nio-8080-exec-8] INFO  c.e.demo.Controller.AuthController - Login request — email=aishwariya1012@gmail.com, role=CITIZEN
+2026-05-20 10:45:38 [http-nio-8080-exec-8] INFO  c.e.demo.Service.NotificationService - Email sent to aishwariya1012@gmail.com
+2026-05-20 10:45:38 [http-nio-8080-exec-8] INFO  c.e.demo.Service.NotificationService - Notification saved — type=LOGIN_ALERT, actorId=5, role=CITIZEN
+2026-05-20 10:45:38 [http-nio-8080-exec-8] INFO  c.example.demo.Service.AuthService - Citizen login — userId=5
+2026-05-20 10:47:32 [http-nio-8080-exec-7] INFO  c.e.d.Controller.CitizenController - Citizen 5 filing incident type=LOST_PROPERTY
+2026-05-20 10:47:33 [http-nio-8080-exec-7] INFO  com.example.demo.Service.PdfService - Incident report PDF generated: ./files/reports/CMS-2026-LOST-003-report.pdf
+2026-05-20 10:47:38 [http-nio-8080-exec-7] INFO  c.e.demo.Service.NotificationService - Email sent to aishwariya1012@gmail.com
+2026-05-20 10:47:38 [http-nio-8080-exec-7] INFO  c.e.demo.Service.NotificationService - Notification saved — type=INCIDENT_CREATED, actorId=5, role=CITIZEN
+2026-05-20 10:47:38 [http-nio-8080-exec-7] INFO  c.e.demo.Service.IncidentService - Incident filed — code=CMS-2026-LOST-003, userId=5
+2026-05-20 11:31:54 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m2s410ms488µs200ns).
+2026-05-20 12:24:51 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52m56s130ms802µs600ns).
+2026-05-20 12:50:22 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m58s989ms28µs900ns).
+2026-05-20 13:08:44 [RMI TCP Connection(143)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-05-20 13:08:44 [RMI TCP Connection(143)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20 13:08:44 [RMI TCP Connection(143)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-05-20 13:08:44 [RMI TCP Connection(143)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
